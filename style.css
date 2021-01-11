@@ -11,13 +11,16 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     cursor: pointer;
 }
-
+.link:hover {
+    border: solid 1px #000000;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -38,7 +41,13 @@ a:hover {
     background-size: cover;
     position: relative;
 }
-
+.text-size {
+    font-size: 13px;
+}
+.color-contrast {
+    color: #000000;
+    text-decoration: none;
+}
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
